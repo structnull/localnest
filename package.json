@@ -10,8 +10,8 @@
     "typescript": "^5"
   },
   "scripts": {
-    "dev": "bun run start-api & bun run start-client",
-    "start-api": "bun --cwd api start",
+    "dev": "bun run start-server & bun run start-client",
+    "start-api": "bun --cwd server start",
     "start-client": "bun --cwd client dev"
   }
 }
